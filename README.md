@@ -48,3 +48,16 @@ Later these feature maps are fed to the LSTM model. As a result, we get a softma
 To distinguish between two consecutive tokens and duplicate tokens, a "separation" token is used
 
 ![image4.png](https://pylessons.com/media/Tutorials/TensorFlow-CAPTCHA-solver/ctc-text-recognition/CTC_recognition.png)
+
+Connectionist Temporal Classification (CTC) is a type of Neural Network output helpful in tackling sequence problems like handwriting and speech recognition where the timing varies. Using CTC ensures that one does not need an aligned dataset, which makes the training process more straightforward.
+
+In the case of creating an OCR (Optical Character Reader), CRNN (Convolutional Recurrent Neural Networks) are a preferred choice. They output a character-score for each time-step, which is represented by a matrix. We now need to use this matrix for:
+
+- Training the Neural Network, i.e., calculating the loss
+- Decoding the output of the Neural Network
+
+CTC operation helps in achieving both tasks.
+
+![image5.png](https://sid2697.github.io/Blog_Sid/assets/images/CTC_1.png)
+
+Reference : https://sid2697.github.io/Blog_Sid/algorithm/2019/10/19/CTC-Loss.html#:~:text=Connectionist%20Temporal%20Classification%20(CTC)%20is,the%20training%20process%20more%20straightforward.
