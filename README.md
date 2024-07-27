@@ -1,5 +1,7 @@
 # EKYC using Computer Vision and NLP
 
+(![alt text](image.png))
+
 ## OCR (Optical Character Recognition)
 
 Optical Character Recognition (OCR) is a technology used to convert different types of
