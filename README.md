@@ -1,6 +1,12 @@
 # EKYC using Computer Vision and NLP
 
-![alt text](image.png)
+![alt text](images/image.png)
+
+## Image Processing and contour detection
+After taking ID image as input I have applied various image transformations like gaussian blurring and adaptive thresholding so that I can easily apply contour detection for finding the ID-Card boundary and better text extraction.
+To easily perform contour detection the uploaded image should have a clear background.
+
+![alt text](images/image-1.pngimage-1.png)
 
 ## OCR (Optical Character Recognition)
 
