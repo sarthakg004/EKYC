@@ -1,6 +1,6 @@
 # EKYC using Computer Vision and NLP
 
-(![alt text](image.png))
+![alt text](image.png)
 
 ## OCR (Optical Character Recognition)
 
