@@ -3,10 +3,10 @@
 ![alt text](images/image.png)
 
 ## Image Processing and contour detection
-After taking ID image as input I have applied various image transformations like gaussian blurring and adaptive thresholding so that I can easily apply contour detection for finding the ID-Card boundary and better text extraction.
+After taking ID image as input I have applied various image transformations like gaussian blurring and adaptive thresholding so that I can easily apply contour detection for removing the background and getting the image of only ID-Card for better text extraction.
 To easily perform contour detection the uploaded image should have a clear background.
 
-![alt text](images/image-1.pngimage-1.png)
+![alt text](images/image-1.png)
 
 ## OCR (Optical Character Recognition)
 
@@ -18,7 +18,7 @@ text within these documents and convert it into a machine-readable form.
 Text extraction can be achieved in two steps, i.e., `text detection` and `text recognition` or by training a single model to achieve both text detection and
 recognition. I'll me explaining the 2 steps process.
 
-**Text detection helps identify the region in the image where the text is present. Ittakes in an image as an input, and the outputs bounding boxes.
+**Text detection helps identify the region in the image where the text is present. It takes in an image as an input, and the outputs bounding boxes.
 Text recognition extracts the text from the input image using the bounding boxes
 obtained from the text detection model. It takes in an image and some bounding boxes
 as inputs and outputs some raw text.**
