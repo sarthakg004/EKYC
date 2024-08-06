@@ -68,4 +68,19 @@ CTC operation helps in achieving both tasks.
 
 ![image5.png](https://sid2697.github.io/Blog_Sid/assets/images/CTC_1.png)
 
+## Face Recognition
+
+Face recognition is performed using:
+1. Haar-Cascade (used for object detection)
+2. DeepFace
+3. Face Recognition Library
+
+the first step in Face Recognition process is extracting/detecting the face image form the provided ID-Card. This is done with the help of Haar_cascade. The Haar Cascade algorithm is like a series of quick tests that check different parts of an image for patterns that look like a face. If it finds a face, it marks it with a box. 
+
+Deepface is a light weight face recognition and facial attribute analysis framework for python.It is a hybrif face recognition framework wrapping state of the art models (VGGFace, GoogleFaceNet, Facebook Deepface, DeepID etc).
+We can perform tasks like Face detection, face recogition, emotion detection using deepface.
+**DeepFace can also perform face detection but I have used haar cascade because it is faster.**
+
+
+
 Reference : https://sid2697.github.io/Blog_Sid/algorithm/2019/10/19/CTC-Loss.html#:~:text=Connectionist%20Temporal%20Classification%20(CTC)%20is,the%20training%20process%20more%20straightforward.
