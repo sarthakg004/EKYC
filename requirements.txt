@@ -1,34 +1,48 @@
 absl-py==2.1.0
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
 astunparse==1.6.3
-certifi==2024.7.4
-charset-normalizer==3.3.2
+beautifulsoup4==4.12.3
+blinker==1.8.2
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_7bbxxprxir/croot/certifi_1720453609121/work/certifi
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
 contourpy==1.2.1
 cycler==0.12.1
 debugpy @ file:///D:/bld/debugpy_1722653074879/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+deepface==0.0.92
+dlib @ file:///D:/bld/dlib_1670031451462/work
 easyocr==1.7.1
 editdistance==0.8.1
 efficientnet==1.0.0
 essential-generators==1.0
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1720869315914/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
+face-recognition @ file:///home/conda/feedstock_root/build_artifacts/face_recognition_1619808233029/work
+face-recognition-models @ file:///home/conda/feedstock_root/build_artifacts/face_recognition_models_1595707436534/work
 filelock==3.15.4
+fire==0.6.0
+Flask==3.0.3
 flatbuffers==24.3.25
 fonttools==4.53.1
 fsspec==2024.6.1
 gast==0.6.0
+gdown==5.2.0
+gmpy2 @ file:///C:/ci/gmpy2_1645438895476/work
 google-pasta==0.2.0
 grpcio==1.65.4
+gunicorn==22.0.0
 h5py==3.11.0
-idna==3.7
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
 imageio==2.34.2
 imgaug==0.4.0
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1721856510709/work
 ipykernel @ file:///D:/bld/ipykernel_1719845595208/work
 ipython @ file:///D:/bld/ipython_1719582682925/work
+itsdangerous==2.2.0
 jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
 Jinja2==3.1.4
 jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1716472197302/work
@@ -41,7 +55,7 @@ lazy_loader==0.4
 libclang==18.1.1
 Markdown==3.6
 markdown-it-py==3.0.0
-MarkupSafe==2.1.5
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
 matplotlib==3.9.1
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
 mdurl==0.1.2
@@ -49,9 +63,12 @@ mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
 mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
 mkl-service==2.4.0
 ml-dtypes==0.4.0
+mpmath==1.3.0
+mtcnn==0.1.1
 namex==0.0.8
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
-networkx==3.3
+networkx @ file:///C:/b/abs_36fmumtynt/croot/networkx_1720002497414/work
+ninja==1.11.1.1
 numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp310-cp310-win_amd64.whl#sha256=ebb5aa2b36d8afa5ec3231c19e5a1fc75b6d85e7db483f0fb9e77dad58469977
 opencv-python==4.10.0.84
 opencv-python-headless==4.10.0.84
@@ -61,7 +78,7 @@ packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_17181894
 pandas==2.2.2
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
-pillow==10.4.0
+pillow @ file:///C:/b/abs_32o8er3uqp/croot/pillow_1721059447598/work
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1718047967974/work
 protobuf==4.25.4
@@ -70,35 +87,44 @@ pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_17215857
 pyclipper==1.3.0.post5
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
 pyparsing==3.1.2
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
 pytesseract==0.3.10
+python-bidi==0.6.0
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
 pytz==2024.1
 pywin32==306
+PyYAML==6.0.1
 pyzmq @ file:///D:/bld/pyzmq_1715024531233/work
-requests==2.32.3
+requests @ file:///C:/b/abs_9frifg92q2/croot/requests_1721410901096/work
+retina-face==0.0.17
 rich==13.7.1
 scikit-image==0.24.0
 scipy==1.14.0
 shapely==2.0.5
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+soupsieve==2.5
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+sympy==1.13.1
 tensorboard==2.17.0
 tensorboard-data-server==0.7.2
 tensorflow==2.17.0
 tensorflow-intel==2.17.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
+tf_keras==2.17.0
 tifffile==2024.7.24
-torch==2.4.0
+torch==2.4.0+cu118
+torchaudio==2.4.0+cu118
 torchvision==0.19.0
 tornado @ file:///D:/bld/tornado_1717722834267/work
 tqdm==4.66.4
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
 tzdata==2024.1
-urllib3==2.2.2
+urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
 validators==0.33.0
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
 Werkzeug==3.0.3
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
 wrapt==1.16.0
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1718013267051/work
