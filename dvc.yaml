@@ -1,0 +1,9 @@
+stages:
+  preprocess:
+    cmd: python preprocess.py
+    deps:
+      - preprocess.py
+      - data\raw\idcard_image2.jpg
+      - params.yaml
+    outs:
+      - data\preprocessed\idcard_image_preprocessed.jpg

@@ -1,0 +1,7 @@
+paths:
+    raw_id_image: "data\\raw\\idcard_image2.jpg"
+    raw_face_image: "data\\raw\\uploaded_face_image.jpg"
+    preprocessed_id_image: "data\\preprocessed\\idcard_image_preprocessed.jpg"
+
+preprocess:
+    kernel_size: 5

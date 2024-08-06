@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python preprocess.py
+    deps:
+    - path: data\raw\idcard_image2.jpg
+      hash: md5
+      md5: 1c147586478bbc59651511847ec72ca2
+      size: 220179
+    - path: params.yaml
+      hash: md5
+      md5: 1e3cb987c5dab7b8e7d802d8188d1bbe
+      size: 229
+    - path: preprocess.py
+      hash: md5
+      md5: 498fe0712511a5120da4db2903502aa0
+      size: 3307
+    outs:
+    - path: data\preprocessed\idcard_image_preprocessed.jpg
+      hash: md5
+      md5: 4063b4138944a2ef47553df15f3824b0
+      size: 30828
