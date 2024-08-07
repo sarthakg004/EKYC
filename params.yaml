@@ -5,3 +5,6 @@ paths:
 
 preprocess:
     kernel_size: 5
+
+text_detection:
+    confidence_threshold: 0.3

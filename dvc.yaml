@@ -7,3 +7,11 @@ stages:
       - params.yaml
     outs:
       - data\preprocessed\idcard_image_preprocessed.jpg
+  
+  text_detection:
+    cmd: python text_detection.py
+    deps:
+      - text_detection.py
+      - data\preprocessed\idcard_image_preprocessed.jpg
+      - params.yaml
+    
