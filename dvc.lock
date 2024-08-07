@@ -9,8 +9,8 @@ stages:
       size: 220179
     - path: params.yaml
       hash: md5
-      md5: 1e3cb987c5dab7b8e7d802d8188d1bbe
-      size: 229
+      md5: 31817bc88d772e84d863e2a5e316ca9f
+      size: 281
     - path: preprocess.py
       hash: md5
       md5: 498fe0712511a5120da4db2903502aa0
@@ -20,3 +20,18 @@ stages:
       hash: md5
       md5: 4063b4138944a2ef47553df15f3824b0
       size: 30828
+  text_detection:
+    cmd: python text_detection.py
+    deps:
+    - path: data\preprocessed\idcard_image_preprocessed.jpg
+      hash: md5
+      md5: 4063b4138944a2ef47553df15f3824b0
+      size: 30828
+    - path: params.yaml
+      hash: md5
+      md5: 31817bc88d772e84d863e2a5e316ca9f
+      size: 281
+    - path: text_detection.py
+      hash: md5
+      md5: 7597f8102942dffcb2378e45c16f478d
+      size: 1621
